@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='s1312009',
+    name='s1312009_learn',
     version='2026.07.15.1',
     author='Thangaraj Mithun',
     author_email='mithun.thangaraj@gmail.com',
@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
-    url='https://github.com/MithunThangaraj/s1312009/learn',
+    url='https://github.com/MithunThangaraj/s1312009_learn',
     license='GPLv3',
     install_requires=[
         'pami',
